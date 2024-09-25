@@ -14,12 +14,12 @@ namespace OnlineBankingSystem
         {
             var ac = new AccountManager("Accounts.txt");
             Console.WriteLine(ac.IsUserAvailable("test","ana23"));
-            //var account = ac.GetAccount("123014");
+            var account = ac.GetAccount("123014");
             //account.Gender = "MalE";
             //ac.EditAccount(account);
             //List<BankAccount> accounts = new List<BankAccount>();
 
-           
+
 
         }
 
